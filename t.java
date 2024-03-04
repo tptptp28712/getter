@@ -18,15 +18,16 @@ class Car {
   }
 }
  class Tanku {
-	// フィールド変数
+	// フィールド変数 
  private String name;
  private String category;
  private String type;
+	 // setter
  public Tanku(String name, String category, String type){
     this.name = name;
     this.category = category;
     this.type = type;
-       
+     // Getter  
  }
  public String getGas(){
    return this.name;
