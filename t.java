@@ -32,9 +32,11 @@ class Car {
  public String getGas(){
    return this.name;
  } 
+	 
  public String getGas2(){
    return this.category;
  } 
+	
  public String getGas3(){
    return this.type;
  } 
